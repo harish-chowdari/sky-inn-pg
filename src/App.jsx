@@ -3,17 +3,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 
 import Navbar from './Navbar/Navbar'
-import Hero from './Hero/Hero'
+import Hero from './Home/Hero'
 import Properties from './Properties/Properties'
-import Amenities from './Amenities/Amenities'
-import Gallery from './Gallery/Gallery'
-import Contact from './Contact/Contact'
+import Amenities from './Home/Amenities'
+import Gallery from './Home/Gallery'
+import Contact from './Home/Contact'
 
 import Balewadi from './pages/Balewadi/Balewadi'
 import Baner from './pages/Baner/Baner'
 
 import './App.css'
-import Footer from './Footer/Footer'
+import Footer from './Home/Footer'
 import Location from './Location/Location'
 
 function Home() {
