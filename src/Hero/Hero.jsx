@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRight, Calendar, Building2, Users, MapPin, ShieldCheck, Phone } from 'lucide-react';
+import pgEnterance from '../assets/pg-enterance.png'
+
 
 function Hero() {
   const stats = [
@@ -15,7 +17,7 @@ function Hero() {
         {/* Left column - copy */}
         <div>
           <h1 className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight">
-            Premium PG Living
+            Premium PG In Baner
             <br />
             <span className="text-[#A6CE39]">Made for You.</span>
           </h1>
@@ -62,7 +64,7 @@ function Hero() {
         <div className="relative pb-6 lg:pb-0">
           <div className="rounded-2xl overflow-hidden bg-white p-2">
             <img
-              src="https://picsum.photos/seed/skyinn-baner/800/650"
+              src={pgEnterance}
               alt="Sky Inn Baner property"
               className="w-full h-[280px] sm:h-[380px] lg:h-[460px] object-cover rounded-xl"
             />

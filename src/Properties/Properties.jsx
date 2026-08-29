@@ -1,24 +1,26 @@
 import React from 'react'
 import { MapPin, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import pgEnterance from '../assets/pg-enterance.png'
+
 
 function Properties() {
   const properties = [
-    {
-      name: 'Sky Inn Balewadi',
-      location: 'Laxman Nagar, Baner, Pune, Maharashtra 411045',
-      description:
-        'Welcome to Sky Inn Balewadi PG – a newly built premium PG designed for modern, comfortable, and hassle-free living. Our fully furnished rooms are...',
-      image: 'https://picsum.photos/seed/skyinn-balewadi/600/400',
-      href: '/sky-inn-balewadi',
-    },
+    // {
+    //   name: 'Sky Inn Balewadi',
+    //   location: 'Laxman Nagar, Baner, Pune, Maharashtra 411045',
+    //   description:
+    //     'Welcome to Sky Inn Balewadi PG – a newly built premium PG designed for modern, comfortable, and hassle-free living. Our fully furnished rooms are...',
+    //   image: 'https://picsum.photos/seed/skyinn-balewadi/600/400',
+    //   href: '/sky-inn-balewadi',
+    // },
     {
       name: 'Sky Inn Baner',
       location:
-        'Flat No 1, Krantisurya Apt, Pan Card Club Rd, Baner, Pune, Maharashtra 411045',
+        'Flat No 1, Krantisurya Apt, Pan Card Club Rd, Sky Inn Pg Services Road, Baner, Pune, Maharashtra 411045',
       description:
         'Newly built PG with modern amenities, comfortable living spaces, excellent connectivity, and a safe, welcoming environment.',
-      image: 'https://picsum.photos/seed/skyinn-baner/600/400',
+      image: pgEnterance,
       href: '/sky-inn-baner',
     },
   ]

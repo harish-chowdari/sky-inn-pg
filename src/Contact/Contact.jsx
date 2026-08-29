@@ -5,17 +5,20 @@ import { Phone, MapPin, ChevronDown } from 'lucide-react';
 // No signup, no backend, no API key needed.
 // On submit, this builds a mailto: link and opens the visitor's own email
 // app (Gmail, Outlook, Apple Mail, etc.) with the message pre-filled and
-// addressed to harishnagubadi9190@gmail.com. They just click Send in their
+// addressed to chakravarthiyadav334@gmail.com. They just click Send in their
 // own mail app — nothing passes through a third-party server, so there's
 // nothing to leak or secure.
 // Trade-off: it requires the visitor to have an email app configured, and
 // they take the final "Send" action themselves rather than it happening
 // silently in the background.
 // ---------------------------------------------------------------------------
-const RECIPIENT_EMAIL = 'harishnagubadi9190@gmail.com';
+const RECIPIENT_EMAIL = 'chakravarthiyadav334@gmail.com';
 
 function Contact() {
-  const properties = ['Sky Inn Balewadi', 'Sky Inn Baner'];
+  const properties = [
+    'Sky Inn Baner'
+    // 'Sky Inn Balewadi', 
+  ];
 
   const [formData, setFormData] = useState({
     name: '',
@@ -81,9 +84,7 @@ function Contact() {
             <div>
               <div className="text-[#0B1526] font-bold text-xs tracking-wide mb-1">CALL US</div>
               <div className="text-gray-600 text-sm leading-relaxed">
-                <a href="tel:+919939933339" className="block hover:text-[#0B1526]">+91 9939933339</a>
-                <a href="tel:+919511925522" className="block hover:text-[#0B1526]">+91 9511925522</a>
-                <a href="tel:+919695316561" className="block hover:text-[#0B1526]">+91 9695316561</a>
+                <a href="tel:+919112233977" className="block hover:text-[#0B1526]">+91 9112233977</a>
               </div>
             </div>
           </div>

@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 function BanerFooter() {
 
   const properties = [
-    {
-      name: 'Sky Inn Balewadi',
-      href: '/sky-inn-balewadi',
-    },
+    // {
+    //   name: 'Sky Inn Balewadi',
+    //   href: '/sky-inn-balewadi',
+    // },
     {
       name: 'Sky Inn Baner',
       href: '/sky-inn-baner',
@@ -137,7 +137,7 @@ function BanerFooter() {
             <div className="flex flex-col gap-3">
 
               <a
-                href="tel:+919511925522"
+                href="tel:+919112233977"
                 className="flex items-center gap-2 text-gray-400 text-sm hover:text-[#A6CE39] transition-colors w-fit"
               >
                 <Phone
@@ -145,11 +145,11 @@ function BanerFooter() {
                   className="text-[#A6CE39] shrink-0"
                 />
 
-                +91 9511925522
+                +91 9112233977
               </a>
 
-              <a
-                href="tel:+919695316561"
+              {/* <a
+                href="tel:+919112233977"
                 className="flex items-center gap-2 text-gray-400 text-sm hover:text-[#A6CE39] transition-colors w-fit"
               >
                 <Phone
@@ -157,8 +157,8 @@ function BanerFooter() {
                   className="text-[#A6CE39] shrink-0"
                 />
 
-                +91 9695316561
-              </a>
+                +91 9112233977
+              </a> */}
 
               <div className="flex items-start gap-2 text-gray-400 text-sm leading-relaxed">
 

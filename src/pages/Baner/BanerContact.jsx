@@ -5,7 +5,7 @@ import { Phone, MapPin, ArrowRight } from 'lucide-react';
 // On submit, this builds a mailto: link and opens the visitor's own email
 // app with the message pre-filled and addressed to the inbox below. They
 // just click Send in their own mail app.
-const RECIPIENT_EMAIL = 'harishnagubadi9190@gmail.com';
+const RECIPIENT_EMAIL = 'chakravarthiyadav334@gmail.com';
 
 function BanerContact() {
   const [formData, setFormData] = useState({ name: '', phone: '', message: '' });
@@ -55,8 +55,8 @@ function BanerContact() {
             <div>
               <div className="text-[#0B1526] font-bold text-base mb-1">Call Us</div>
               <div className="text-gray-600 text-sm leading-relaxed">
-                <a href="tel:+919511925522" className="block hover:text-[#0B1526]">+91 9511925522</a>
-                <a href="tel:+919695316561" className="block hover:text-[#0B1526]">+91 9695316561</a>
+                <a href="tel:+919112233977" className="block hover:text-[#0B1526]">+91 9112233977</a>
+                {/* <a href="tel:+919112233977" className="block hover:text-[#0B1526]">+91 9112233977</a> */}
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ function BanerContact() {
             <div>
               <div className="text-[#0B1526] font-bold text-base mb-1">Visit Property</div>
               <div className="text-gray-600 text-sm leading-relaxed">
-                Flat No 1, Krantisurya Apt, Pan Card Club Rd, Baner, Pune, Maharashtra 411045
+                Flat No 1, Krantisurya Apt, Pan Card Club Rd, Sky Inn Pg Services Road, Baner, Pune, Maharashtra 411045
               </div>
             </div>
           </div>

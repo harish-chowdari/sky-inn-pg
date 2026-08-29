@@ -1,11 +1,39 @@
 import React from 'react';
 import { Expand } from 'lucide-react';
 
+// ---------------------------------------------------------------------------
+// IMPORTANT: adjust these import paths/extensions to match your actual files.
+// This assumes your images live in src/assets/gallery/ (relative to this
+// file at src/Gallery/Gallery.jsx) with a .jpg extension. If your files are
+// .png/.jpeg, or sit directly in src/assets/ instead of a "gallery"
+// subfolder, just update the paths below to match.
+// ---------------------------------------------------------------------------
+import building2 from '../assets/building-2.jpeg';
+import pgEnterance from '../assets/pg-enterance.png';
+import building1 from '../assets/building-1.png';
+import sharing1 from '../assets/1-sharing-1.jpeg';
+import sharing2 from '../assets/2-sharing-1.jpeg';
+import shareEnterance from '../assets/3-share-enterance.jpeg';
+import sharing3a from '../assets/3-sharing-1.jpeg';
+import sharing3b from '../assets/3-sharing-2.jpeg';
+import parking from '../assets/parking.jpeg';
+import ro from '../assets/ro.jpeg';
+import washingMachine from '../assets/washing-machine.jpeg';
+
 function Gallery() {
-  const images = Array.from({ length: 15 }, (_, i) => ({
-    src: `https://picsum.photos/seed/skyinn-gallery-${i + 1}/600/450`,
-    alt: `Sky Inn gallery photo ${i + 1}`,
-  }));
+  const images = [
+    { src: building2, alt: 'Sky Inn building exterior view 2' },
+    { src: pgEnterance, alt: 'Sky Inn PG entrance' },
+    { src: building1, alt: 'Sky Inn building exterior view 1' },
+    { src: sharing1, alt: 'Sky Inn single sharing room' },
+    { src: sharing2, alt: 'Sky Inn twin sharing room' },
+    { src: shareEnterance, alt: 'Sky Inn triple sharing room entrance' },
+    { src: sharing3a, alt: 'Sky Inn triple sharing room 1' },
+    { src: sharing3b, alt: 'Sky Inn triple sharing room 2' },
+    { src: parking, alt: 'Sky Inn parking area' },
+    { src: ro, alt: 'Sky Inn RO water plant' },
+    { src: washingMachine, alt: 'Sky Inn washing machine' },
+  ];
 
   return (
     <section className="bg-white py-16 px-5 sm:px-8">
@@ -24,9 +52,7 @@ function Gallery() {
             <div
               key={i}
               className={`group relative rounded-xl overflow-hidden ${
-                i === 0
-                  ? 'col-span-2 row-span-2'
-                  : 'col-span-1 row-span-1'
+                i === 0 ? 'col-span-2 row-span-2' : 'col-span-1 row-span-1'
               }`}
             >
               <img

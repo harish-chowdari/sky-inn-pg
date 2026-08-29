@@ -9,10 +9,10 @@ function Footer() {
   // ==========================================
 
   const properties = [
-    {
-      name: 'Sky Inn Balewadi',
-      href: '/sky-inn-balewadi',
-    },
+    // {
+    //   name: 'Sky Inn Balewadi',
+    //   href: '/sky-inn-balewadi',
+    // },
     {
       name: 'Sky Inn Baner',
       href: '/sky-inn-baner',
@@ -172,33 +172,33 @@ function Footer() {
             <div className="flex flex-col gap-3">
 
               <a
-                href="tel:+919511925522"
+                href="tel:+919112233977"
                 className="flex items-center gap-2 text-gray-400 text-sm hover:text-[#A6CE39] transition-colors w-fit"
               >
 
                 <Phone size={15} className="text-[#A6CE39] shrink-0" />
 
-                +91 9511925522
+                +91 9112233977
 
               </a>
 
-              <a
-                href="tel:+919695316561"
+              {/* <a
+                href="tel:+919112233977"
                 className="flex items-center gap-2 text-gray-400 text-sm hover:text-[#A6CE39] transition-colors w-fit"
               >
 
                 <Phone size={15} className="text-[#A6CE39] shrink-0" />
 
-                +91 9695316561
+                +91 9112233977
 
-              </a>
+              </a> */}
 
               <div className="flex items-start gap-2 text-gray-400 text-sm leading-relaxed">
 
                 <MapPin size={15} className="text-[#A6CE39] shrink-0 mt-0.5" />
 
                 <span>
-                  Flat No 1, Krantisurya Apt, Pan Card Club Rd, Baner, Pune, Maharashtra 411045
+                  Flat No 1, Krantisurya Apt, Pan Card Club Rd, Sky Inn Pg Services Road, Baner, Pune, Maharashtra 411045
                 </span>
 
               </div>

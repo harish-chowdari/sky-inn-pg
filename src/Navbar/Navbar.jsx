@@ -22,10 +22,10 @@ function Navbar() {
   // ==========================================
 
   const properties = [
-    {
-      name: 'Sky Inn Balewadi',
-      href: '/sky-inn-balewadi',
-    },
+    // {
+    //   name: 'Sky Inn Balewadi',
+    //   href: '/sky-inn-balewadi',
+    // },
     {
       name: 'Sky Inn Baner',
       href: '/sky-inn-baner',
@@ -417,7 +417,7 @@ function Navbar() {
             {/* PHONE */}
 
             <a
-              href="tel:+919939933339"
+              href="tel:+919112233977"
               className="flex items-center justify-center gap-2 bg-white/10 text-white font-medium text-sm px-5 py-3 rounded-md"
             >
 
@@ -426,7 +426,7 @@ function Navbar() {
                 className="text-[#A6CE39]"
               />
 
-              +91 9939933339
+              +91 9112233977
 
             </a>
 

@@ -40,7 +40,7 @@ function BanerHero() {
         <div className="flex items-start gap-2 mt-4">
           <MapPin size={16} className="text-[#A6CE39] shrink-0 mt-0.5" />
           <span className="text-gray-200 font-semibold text-sm sm:text-base leading-relaxed">
-            Flat No 1, Krantisurya Apt, Pan Card Club Rd, Baner, Pune, Maharashtra 411045
+            Flat No 1, Krantisurya Apt, Pan Card Club Rd, Sky Inn Pg Services Road, Baner, Pune, Maharashtra 411045
           </span>
         </div>
       </div>

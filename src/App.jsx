@@ -58,10 +58,10 @@ function App() {
           element={<Home />}
         />
 
-        <Route
+        {/* <Route
           path="/sky-inn-balewadi"
           element={<Balewadi />}
-        />
+        /> */}
 
         <Route
           path="/sky-inn-baner"
