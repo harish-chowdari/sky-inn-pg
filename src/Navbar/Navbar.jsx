@@ -10,6 +10,8 @@ import {
 
 import { Link } from 'react-router-dom'
 
+import logo from '../assets/logo.png'
+
 
 function Navbar() {
 
@@ -71,7 +73,7 @@ function Navbar() {
 
   return (
 
-    <header className="bg-[#0B1526] relative z-50 w-full">
+    <header className="bg-[#0B1526] sticky top-0 z-50 w-full">
 
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-5 sm:px-8 py-5">
 
@@ -86,9 +88,7 @@ function Navbar() {
           onClick={() => setMobileOpen(false)}
         >
 
-          <span className="text-white font-extrabold text-xl sm:text-2xl tracking-wide">
-            SKY INN
-          </span>
+          <img src={logo} className="text-white font-extrabold h-15 w-35 tracking-wide" />
 
           <svg
             viewBox="0 0 100 12"
@@ -285,9 +285,7 @@ function Navbar() {
               className="flex flex-col leading-none"
             >
 
-              <span className="text-white font-extrabold text-xl tracking-wide">
-                SKY INN
-              </span>
+              <img src={logo} className="text-white font-extrabold h-15 w-35 tracking-wide" />
 
               <svg
                 viewBox="0 0 100 12"

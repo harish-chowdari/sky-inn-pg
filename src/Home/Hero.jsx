@@ -6,7 +6,7 @@ import pgEnterance from '../assets/pg-enterance.png'
 function Hero() {
   const stats = [
     { icon: Building2, value: '4+', label: 'PROPERTIES' },
-    { icon: Users, value: '100+', label: 'HAPPY RESIDENTS' },
+    { icon: Users, value: '500+', label: 'HAPPY RESIDENTS' },
     { icon: MapPin, value: 'Prime', label: 'LOCATIONS' },
     { icon: ShieldCheck, value: '24/7', label: 'SUPPORT' },
   ];
