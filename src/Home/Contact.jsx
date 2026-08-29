@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, MapPin, ChevronDown } from 'lucide-react';
+import logoFull from '../assets/logo-full.png';
 
 // ---------------------------------------------------------------------------
 // No signup, no backend, no API key needed.
@@ -63,48 +64,85 @@ function Contact() {
 
   return (
     <section className="bg-white py-16 px-5 sm:px-8">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-        {/* Left column - info */}
-        <div>
-          <div className="text-[#8CC63F] text-xs font-bold tracking-widest mb-2">
-            GET IN TOUCH
-          </div>
-          <h2 className="text-[#0B1526] font-extrabold text-3xl sm:text-4xl lg:text-[42px] leading-tight">
-            We're Here to Help.
-          </h2>
-          <p className="text-gray-500 text-base mt-4 max-w-md leading-relaxed">
-            Have questions about our properties or want to schedule a personalized
-            tour? Reach out to our team directly.
-          </p>
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
 
-          <div className="flex items-start gap-4 mt-8">
-            <div className="bg-[#F0F7DE] rounded-xl w-12 h-12 flex items-center justify-center shrink-0">
-              <Phone size={20} className="text-[#8CC63F]" />
+        {/* =====================================
+            LEFT COLUMN - INFO CARD WITH LOGO BG
+        ====================================== */}
+
+        <div className="relative overflow-hidden rounded-2xl bg-[#0B1526] px-6 sm:px-10 py-12 sm:py-14 flex flex-col justify-center">
+
+          {/* Ambient green glow */}
+          <div className="absolute -top-24 -left-24 w-72 h-72 bg-[#A6CE39]/20 rounded-full blur-3xl" />
+          <div className="absolute -bottom-24 -right-10 w-72 h-72 bg-[#A6CE39]/10 rounded-full blur-3xl" />
+
+          {/* Logo watermark - full logo, centered */}
+          <img
+            src={logoFull}
+            alt=""
+            aria-hidden="true"
+            className="pointer-events-none select-none absolute inset-0 w-full h-full object-contain p-8 opacity-[0.08]"
+          />
+
+          {/* Content */}
+          <div className="relative z-10">
+
+            <div className="text-[#A6CE39] text-xs font-bold tracking-widest mb-2">
+              GET IN TOUCH
             </div>
-            <div>
-              <div className="text-[#0B1526] font-bold text-xs tracking-wide mb-1">CALL US</div>
-              <div className="text-gray-600 text-sm leading-relaxed">
-                <a href="tel:+919112233977" className="block hover:text-[#0B1526]">+91 9112233977</a>
+
+            <h2 className="text-white font-extrabold text-3xl sm:text-4xl lg:text-[42px] leading-tight">
+              We're Here to Help.
+            </h2>
+
+            <p className="text-white/60 text-base mt-4 max-w-md leading-relaxed">
+              Have questions about our properties or want to schedule a personalized
+              tour? Reach out to our team directly.
+            </p>
+
+            <div className="flex items-start gap-4 mt-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl w-12 h-12 flex items-center justify-center shrink-0">
+                <Phone size={20} className="text-[#A6CE39]" />
+              </div>
+              <div>
+                <div className="text-white font-bold text-xs tracking-wide mb-1">CALL US</div>
+                <div className="text-white/70 text-sm leading-relaxed">
+                  <a href="tel:+919112233977" className="block hover:text-[#A6CE39] transition-colors">+91 9112233977</a>
+                </div>
               </div>
             </div>
+
+            <div className="flex items-start gap-4 mt-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl w-12 h-12 flex items-center justify-center shrink-0">
+                <MapPin size={20} className="text-[#A6CE39]" />
+              </div>
+              <div>
+                <div className="text-white font-bold text-xs tracking-wide mb-1">VISIT OFFICE</div>
+                <div className="text-white/70 text-sm">Pune, Maharashtra, India</div>
+              </div>
+            </div>
+
           </div>
 
-          <div className="flex items-start gap-4 mt-6">
-            <div className="bg-[#F0F7DE] rounded-xl w-12 h-12 flex items-center justify-center shrink-0">
-              <MapPin size={20} className="text-[#8CC63F]" />
-            </div>
-            <div>
-              <div className="text-[#0B1526] font-bold text-xs tracking-wide mb-1">VISIT OFFICE</div>
-              <div className="text-gray-600 text-sm">Pune, Maharashtra, India</div>
-            </div>
-          </div>
         </div>
 
-        {/* Right column - form card */}
-        <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 sm:p-8">
-          <h3 className="text-[#0B1526] font-bold text-2xl mb-6">Schedule a Visit</h3>
+        {/* =====================================
+            RIGHT COLUMN - FORM CARD
+        ====================================== */}
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+        <div className="relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-100 p-6 sm:p-8">
+
+          {/* Logo watermark - full logo, centered */}
+          <img
+            src={logoFull}
+            alt=""
+            aria-hidden="true"
+            className="pointer-events-none select-none absolute inset-0 w-full h-full object-contain p-8 opacity-[0.05]"
+          />
+
+          <h3 className="relative z-10 text-[#0B1526] font-bold text-2xl mb-6">Schedule a Visit</h3>
+
+          <form onSubmit={handleSubmit} className="relative z-10 flex flex-col gap-5">
             <div>
               <label className="block text-gray-500 text-xs font-semibold tracking-wide mb-2">
                 YOUR NAME <span className="text-[#8CC63F]">*</span>
