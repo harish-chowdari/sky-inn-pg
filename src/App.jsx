@@ -14,6 +14,7 @@ import Baner from './pages/Baner/Baner'
 
 import './App.css'
 import Footer from './Footer/Footer'
+import Location from './Location/Location'
 
 function Home() {
   return (
@@ -32,12 +33,16 @@ function Home() {
         <Amenities />
       </section>
 
-      <section id="gallery">
+      {/* <section id="gallery">
         <Gallery />
-      </section>
+      </section> */}
 
       <section id="contact">
         <Contact />
+      </section>
+
+      <section id="amenities">
+        <Location />
       </section>
 
       <Footer />

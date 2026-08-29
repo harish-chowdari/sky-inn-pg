@@ -32,9 +32,18 @@ function BanerHero() {
         </span>
 
         {/* Title */}
+        {/* Title */}
         <h1 className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight">
           Sky Inn Baner
         </h1>
+
+        {/* Mobile Phone Number */}
+        <a
+          href="tel:+919112233977"
+          className="block text-white/80 text-sm font-semibold mt-2"
+        >
+          9112233977
+        </a>
 
         {/* Location */}
         <div className="flex items-start gap-2 mt-4">
