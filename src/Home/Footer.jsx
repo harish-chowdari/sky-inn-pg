@@ -9,13 +9,13 @@ function Footer() {
   // ==========================================
 
   const properties = [
-    // {
-    //   name: 'Sky Inn Balewadi',
-    //   href: '/sky-inn-balewadi',
-    // },
     {
-      name: 'Sky Inn Baner',
-      href: '/sky-inn-baner',
+      name: 'Sky Inn PG in Baner',
+      href: '/sky-inn-pg-baner',
+    },
+    {
+      name: 'Sky Inn PG Services in Baner',
+      href: '/sky-inn-pg-services-baner',
     },
   ]
 

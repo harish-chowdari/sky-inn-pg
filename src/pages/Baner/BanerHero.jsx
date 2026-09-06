@@ -7,7 +7,7 @@ function BanerHero() {
       {/* Background image */}
       <img
         src="https://picsum.photos/seed/skyinn-baner-hero/1600/500"
-        alt="Sky Inn Baner building"
+        alt="Sky Inn PG Services in Baner building"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
@@ -23,7 +23,7 @@ function BanerHero() {
             HOME
           </a>
           <ChevronRight size={14} className="text-white/50" />
-          <span className="text-[#A6CE39]">SKY INN BANER</span>
+          <span className="text-[#A6CE39]">Sky Inn PG Services in Baner</span>
         </div>
 
         {/* Badge */}
@@ -34,7 +34,7 @@ function BanerHero() {
         {/* Title */}
         {/* Title */}
         <h1 className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight">
-          Sky Inn Baner
+          Sky Inn PG Services in Baner
         </h1>
 
         {/* Mobile Phone Number */}

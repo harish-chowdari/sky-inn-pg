@@ -6,6 +6,7 @@ import BalewadiAmenities from './BalewadiAmenities'
 import BalewadiGallery from './BalewadiGallery'
 import BalewadiContact from './BalewadiContact'
 import BalewadiFooter from './BalewadiFooter'
+import BalewadiLocation from './BalewadiLocation'
 
 function Balewadi() {
   return (
@@ -35,8 +36,13 @@ function Balewadi() {
       </section>
 
       {/* PROPERTY GALLERY */}
-      <section id="gallery">
+      {/* <section id="gallery">
         <BalewadiGallery />
+      </section> */}
+
+      {/* LOCATION */}
+      <section id="location">
+        <BalewadiLocation />
       </section>
 
       {/* CONTACT */}

@@ -6,12 +6,12 @@ function BalewadiFooter() {
 
   const properties = [
     {
-      name: 'Sky Inn Balewadi',
-      href: '/sky-inn-balewadi',
+      name: 'Sky Inn PG in Baner',
+      href: '/sky-inn-pg-baner',
     },
     {
-      name: 'Sky Inn Baner',
-      href: '/sky-inn-baner',
+      name: 'Sky Inn PG Services in Baner',
+      href: '/sky-inn-pg-services-baner',
     },
   ]
 
@@ -24,10 +24,10 @@ function BalewadiFooter() {
       name: 'Amenities',
       href: '#amenities',
     },
-    {
-      name: 'Gallery',
-      href: '#gallery',
-    },
+    // {
+    //   name: 'Gallery',
+    //   href: '#gallery',
+    // },
     {
       name: 'Contact',
       href: '#contact',
@@ -148,7 +148,7 @@ function BalewadiFooter() {
                 +91 9112233977
               </a>
 
-              <a
+              {/* <a
                 href="tel:+919112233977"
                 className="flex items-center gap-2 text-gray-400 text-sm hover:text-[#A6CE39] transition-colors w-fit"
               >
@@ -158,18 +158,18 @@ function BalewadiFooter() {
                 />
 
                 +91 9112233977
-              </a>
+              </a> */}
 
               <div className="flex items-start gap-2 text-gray-400 text-sm leading-relaxed">
 
                 <MapPin
                   size={15}
-                  className="text-[#A6CE39] shrink-0"
+                  className="text-[#A6CE39] shrink-0 mt-0.5"
                 />
 
                 <span>
-                  {/* PUT YOUR BALEWADI ADDRESS HERE */}
-                  Sky Inn Balewadi, Balewadi, Pune, Maharashtra 411045
+                  Flat No 302, Spiro Elegance Opposite Smart Chemist Ganraj Chowk,
+                  Baner, Pune, Maharashtra 411045
                 </span>
 
               </div>

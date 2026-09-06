@@ -17,8 +17,8 @@ const RECIPIENT_EMAIL = 'chakravarthiyadav334@gmail.com';
 
 function Contact() {
   const properties = [
-    'Sky Inn Baner'
-    // 'Sky Inn Balewadi', 
+    'Sky Inn PG in Baner',
+    'Sky Inn PG Services in Baner', 
   ];
 
   const [formData, setFormData] = useState({

@@ -63,13 +63,13 @@ function App() {
           element={<Home />}
         />
 
-        {/* <Route
-          path="/sky-inn-balewadi"
+        <Route
+          path="/sky-inn-pg-baner"
           element={<Balewadi />}
-        /> */}
+        />
 
         <Route
-          path="/sky-inn-baner"
+          path="/sky-inn-pg-services-baner"
           element={<Baner />}
         />
 

@@ -6,8 +6,8 @@ function BalewadiHero() {
     <section className="relative overflow-hidden">
       {/* Background image */}
       <img
-        src="https://picsum.photos/seed/skyinn-balewadi-hero/1600/500"
-        alt="Sky Inn Living Balewadi building"
+        src="https://picsum.photos/seed/skyinn-baner-hero/1600/500"
+        alt="Sky Inn PG in Baner building"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
@@ -23,7 +23,7 @@ function BalewadiHero() {
             HOME
           </a>
           <ChevronRight size={14} className="text-white/50" />
-          <span className="text-[#A6CE39]">SKY INN LIVING BALEWADI</span>
+          <span className="text-[#A6CE39]">Sky Inn PG in Baner</span>
         </div>
 
         {/* Badge */}
@@ -32,15 +32,24 @@ function BalewadiHero() {
         </span>
 
         {/* Title */}
+        {/* Title */}
         <h1 className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight">
-          Sky Inn Living Balewadi
+          Sky Inn PG in Baner
         </h1>
 
+        {/* Mobile Phone Number */}
+        <a
+          href="tel:+919112233977"
+          className="block text-white/80 text-sm font-semibold mt-2"
+        >
+          9112233977
+        </a>
+
         {/* Location */}
-        <div className="flex items-center gap-2 mt-4">
-          <MapPin size={16} className="text-[#A6CE39] shrink-0" />
-          <span className="text-gray-200 font-semibold text-sm sm:text-base">
-            Laxman Nagar, Baner, Pune, Maharashtra 411045
+        <div className="flex items-start gap-2 mt-4">
+          <MapPin size={16} className="text-[#A6CE39] shrink-0 mt-0.5" />
+          <span className="text-gray-200 font-semibold text-sm sm:text-base leading-relaxed">
+            Flat No 302, Spiro Elegance Opposite Smart Chemist Ganraj Chowk, Baner, Pune, Maharashtra 411045
           </span>
         </div>
       </div>
