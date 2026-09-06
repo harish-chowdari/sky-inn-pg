@@ -25,6 +25,9 @@ function Properties() {
     },
   ]
 
+  const navigate = (href) => {
+    window.location.href = href
+  }
 
   return (
     <section className="bg-white py-16 px-5 sm:px-8">
@@ -60,7 +63,8 @@ function Properties() {
                 <img
                   src={property.image}
                   alt={property.name}
-                  className="w-full h-full object-cover"
+                  onClick={() => navigate(property.href)}
+                  className="w-full h-full object-cover cursor-pointer"
                 />
 
                 {/* Location */}
