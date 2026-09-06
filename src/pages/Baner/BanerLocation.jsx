@@ -22,7 +22,7 @@ function BanerLocation() {
         <div className="relative rounded-2xl overflow-hidden shadow-sm border border-gray-200">
           {/* Embedded map */}
           <iframe
-            title="Sky Inn Baner location"
+            title="Sky Inn PG Services in Baner location"
             src={`https://www.google.com/maps?q=${encodeURIComponent(
               PROPERTY_ADDRESS
             )}&output=embed`}

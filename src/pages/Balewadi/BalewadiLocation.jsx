@@ -13,6 +13,9 @@ const DIRECTIONS_LINK = `https://www.google.com/maps/dir/?api=1&destination=${en
   PROPERTY_ADDRESS
 )}`;
 
+const LATITUDE = 18.564149;
+const LONGITUDE = 73.775718;
+
 function BanerLocation() {
   return (
     <section className="bg-[#F7F8FA] py-16 px-5 sm:px-8 border-t border-gray-200">
@@ -23,9 +26,7 @@ function BanerLocation() {
           {/* Embedded map */}
           <iframe
             title="Sky Inn Baner location"
-            src={`https://www.google.com/maps?q=${encodeURIComponent(
-              PROPERTY_ADDRESS
-            )}&output=embed`}
+            src={`https://www.google.com/maps?q=${LATITUDE},${LONGITUDE}&z=17&output=embed`}
             className="w-full h-[420px] sm:h-[480px] lg:h-[520px] border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

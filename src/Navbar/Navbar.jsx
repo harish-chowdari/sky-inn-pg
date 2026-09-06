@@ -227,15 +227,13 @@ function Navbar() {
             DESKTOP BOOK BUTTON
         ====================================== */}
 
-        <button
+        <a
+          href="#contact"
           className="hidden lg:flex items-center gap-2 bg-[#A6CE39] text-[#0B1526] font-semibold text-sm px-5 py-2.5 rounded-md hover:brightness-95 transition"
         >
-
           Book a Visit
-
           <Calendar size={16} />
-
-        </button>
+        </a>
 
 
 
